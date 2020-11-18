@@ -50,7 +50,7 @@ public class Calculator {
                 result = this.leftOperand * this.rightOperand;
                 break;
             case "/":
-                result = this.leftOperand / this.rightOperand;
+                result = this.leftOperand * this.rightOperand;
                 break;
             case "^":
                 result = Math.pow(this.leftOperand,this.rightOperand);

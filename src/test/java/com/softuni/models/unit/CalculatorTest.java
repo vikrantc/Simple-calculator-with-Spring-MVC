@@ -1,5 +1,6 @@
-package com.softuni.models;
+package com.softuni.models.unit;
 
+import com.softuni.models.Calculator;
 import junit.framework.TestCase;
 
 public class CalculatorTest extends TestCase {
